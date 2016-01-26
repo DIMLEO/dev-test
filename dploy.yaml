@@ -1,0 +1,32 @@
+dev:
+    scheme: ftp
+    host: ftp.local.dev
+    port: 21
+    user: dev
+    pass: dev
+    check: true
+    path:
+        local:
+        remote: public_html/
+
+test:
+    scheme: ftp
+    host: ftp.local.test
+    port: 21
+    user: test
+    pass: test
+    check: true
+    path:
+        local:
+        remote: public_html/
+
+prod:
+    scheme: ftp
+    host: ftp.local.prod
+    port: 21
+    user: prod
+    pass: prod
+    check: true
+    path:
+        local:
+        remote: public_html/
